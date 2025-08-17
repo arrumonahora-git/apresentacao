@@ -5,8 +5,8 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-    font-style: italic;
-    color: rgb(73, 12, 143);
+    font-style: 'italic';
+    color: rgb(33, 143, 11);
     background-color: rgb(223, 19, 46);
 }
 h2{
