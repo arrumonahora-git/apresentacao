@@ -1,0 +1,28 @@
+body {
+    font-size: 20px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(143, 12, 12);
+    background-color: #D9A441;
+}
+h2{
+    text-align: left;
+    font-size: 40px;
+    text-decoration: underline;
+    
+}
+p{
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+    text-align: left;
+    font-size: 20;
+}
