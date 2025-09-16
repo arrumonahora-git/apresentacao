@@ -29,6 +29,7 @@ body {
     background-image: url('imagens/planodefundo.png');
     image-rendering: auto;
     background-color: var(--cor-1);
+    background-size: 200px;
 }
 header {
     font-family: Arial, Helvetica, sans-serif;
