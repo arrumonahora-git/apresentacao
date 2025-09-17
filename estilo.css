@@ -16,20 +16,12 @@
     --fonte-padrao:Arial, Helvetica, sans-serif;
 }
 
-html, body {
-    height: 100%;
-    background-color: var(--cor-1);
-    margin: auto;
-    padding: auto;
-   
-}
-
-
 body {
     background-image: url('imagens/planodefundo.png');
     image-rendering: auto;
     background-color: var(--cor-1);
     background-size: 200px;
+    border-radius: 10px;
 }
 header {
     font-family: Arial, Helvetica, sans-serif;
@@ -43,12 +35,14 @@ header h1 {
     font-size: 30px;
     color: rgb(1, 9, 14);
     background-image: linear-gradient(to right, var(--cor-4),transparent);
+    border-radius: 10px
 }
 header p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
     text-indent: 30px;
+    border-radius: 10px
  
 }
 
@@ -57,6 +51,7 @@ div.video {
     padding: 10px;
     padding-bottom: 35%;
     position: relative;
+    border-radius: 10px
 }
 div.video > iframe {
     position: absolute;
@@ -71,6 +66,7 @@ h2{
     text-align: left 10px;
     font-size: 20px;
     background-image: linear-gradient(to right, var(--cor-4),transparent);
+    border-radius: 10px
 
     
 }
@@ -79,6 +75,7 @@ h2{
     font-size:  15px;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px
 }
 nav {
     letter-spacing: 1px;
@@ -87,7 +84,8 @@ nav {
     margin-top: 30px;
     margin-bottom: 10px;
     background-color: var(--cor-2);
-    background-image: linear-gradient(to right, var(--cor-1),transparent);    
+    background-image: linear-gradient(to right, var(--cor-1),transparent);
+    border-radius: 10px  
 }
 nav :hover {
     margin-left: 5px;
@@ -95,7 +93,8 @@ nav :hover {
     border-radius: 5%;
     box-shadow: 0,5% var(--cor-5);
     width: 80%;
-    height: 70%;  
+    height: 70%;
+    border-radius: 10px 
 }
 main {
     width: 600px;
@@ -106,12 +105,14 @@ div audio {
     background-image: linear-gradient(to right, var(--cor-2),transparent);
     width: 60%;
     position: relative;
+    border-radius: 10px
 }
 main{
     display: block;  
     margin: auto;
     padding: auto;
     background-color: aliceblue;
+    border-radius: 10px
 
 }
  main footer{
@@ -120,5 +121,6 @@ main{
     padding: auto;
     background-color: #063d1e;
     background-image: linear-gradient(to right, var(--cor-2),transparent);
+    border-radius: 10px
 }
 
