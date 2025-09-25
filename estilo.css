@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charse "utf-8";
 @font-face {
     font-family: Arial, Helvetica, sans-serif;
     src: local('Arial'), local('Helvetica'), local('sans-serif');
@@ -27,28 +27,39 @@ main {
     background-color: aliceblue;
     border-radius: 10px;
 }
+
 header {
     padding: 5px 5px 5px 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 5%;
     text-align: center;
 }
-header h1 {
+h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     background-image: linear-gradient(to right, var(--cor-4),transparent);
     border-radius: 10px;
+    box-shadow:  10px 10px 5px var(--cor-5);
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    line-height: normal;
+    font-family: var(--fonte-padrao);
 }
-header p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    text-indent: 30px;
+p {
+    background-image: linear-gradient(to right, var(--cor-3),transparent);
     border-radius: 10px;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    text-align: justify;
+    line-height: normal;
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
 }
+
 div.video {
     padding: 5px 5px 5px 5px;
-    background-color: #063d1e;
+    background-image: linear-gradient(to right, var(--cor-4),transparent);  
     padding-bottom: 35%;
     position: relative;
     border-radius: 10px;
@@ -65,19 +76,25 @@ h2{
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
     text-align: left 10px;
-    font-size: 20px;
-    background-image: linear-gradient(to right, var(--cor-4),transparent);
-    border-radius: 10px;  
-}
-nav {
-    letter-spacing: 1px;
+    font-size: 10px;
     line-height: normal;
-    margin: 5px 5px 5px 5px;
+    background-image: linear-gradient(to right, var(--cor-4),transparent);
+    border-radius: 10px;
+}
+
+nav {
     padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    width: auto;
+    height: auto;
+    line-height: normal;
     background-image: linear-gradient(to right, var(--cor-1),transparent);
-    border-radius: 10px;  
+    border-radius: 10px;
+    font-size: 10px;
 }
 nav :hover {
+    position: center;
+    background-image: linear-gradient(to right, var(--cor-3),transparent);
     margin-left: 5px;
     transform: scale(1,1);
     border-radius: 5%;
@@ -87,20 +104,28 @@ nav :hover {
     border-radius: 10px;
 }
 div audio {
-    display: block;
-    background-image: linear-gradient(to right, var(--cor-2),transparent);
+    font-size: 5px;
     width: 50%;
-    position: relative;
-    border-radius: 10px;   
+    height: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    line-height: normal;
+    background-image: linear-gradient(to right, var(--cor-4),transparent);
+    border-radius: 10px;
 }
+
 .player-container {
-    width: 400px;
-    height: 70px;
-    /* Outras propriedades de estilo para o contêiner */
+    width: 90%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--cor-2),transparent);
+    box-shadow:  10px 10px 5px var(--cor-5);
+
 }
 
 footer{
-    background-image: linear-gradient(to right, var(--cor-2),transparent);
+    width: 90%;
+    height: 10px;
     border-radius: 10px;
+    padding: 5px 5px 5px 5px;
 }
 
